@@ -13,6 +13,6 @@ class Foo{
 public class Day05 {
     public static void main(String[] args) {
         Foo foo = new Foo();
-        System.out.println(foo.bool);
+        System.out.println(foo.d);
     }
 }
