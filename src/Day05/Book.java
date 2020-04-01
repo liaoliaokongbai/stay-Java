@@ -12,34 +12,26 @@ public Book(){
         this.bookName = bookName;
         this.code = code;
     }
-    public Book(int code){
-    this.code = code;
-  }
-    public int getCode() {
-        return code;
-    }
+
+
     public void setCode(int code) {
         this.code = code;
     }
-    public String getBookName() {
-        return bookName;
-    }
+
     public void setBookName(String bookName) {
         this.bookName = bookName;
     }
     void display(){
         System.out.println(code +" "+ bookName +" "+sum);
     }
-    public static int getSum() {
-        return sum;
-    }
+
     public static void setSum(int sum) {
         Book.sum = sum;
     }
-    void borrow(){
+     public void borrow(){
     sum--;
     }
-    void return1(){
+    public void return1(){
     sum++;
     }
 }
@@ -49,7 +41,7 @@ class Test{
         bk2=new Book(1100,"数据结构");
         bk2.display();
         bk2.borrow();
-
+        bk2.borrow();
         bk2.display();
     }
 
