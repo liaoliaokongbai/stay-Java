@@ -1,5 +1,5 @@
 
-/*class Person{
+class Person{
     protected String name;
     protected int age;
     public Person(String name,int age){
@@ -49,4 +49,3 @@ public class Day001 {
         s.showInfo();
     }
 }
-*/
